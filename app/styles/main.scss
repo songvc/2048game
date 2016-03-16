@@ -1,0 +1,57 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+* {
+  border: 1px solid black;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.full-container {
+  width:500px;
+  margin: 0 auto;
+}
+
+.top-container {
+  height:auto;
+
+  .number, .score, .best {
+    float:left;
+    height:80px;
+  }
+  .number {
+    margin: 0 0;
+    width:50%;
+  }
+  .score, .best {
+    width:25%;
+    padding:8px;
+  }
+}
+
+.sub-container {
+  height:50px;
+  .sub-description, .sub-button {
+    float:left;
+  }
+  .sub-description {
+    width:80%;
+  }
+  .sub-button {
+    width:20%;
+  }
+}
+
+.game-container {
+
+  .box {
+    float:left;
+    width:25%;
+    height:100px;
+    // color:blue;
+  }
+
+}
